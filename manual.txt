@@ -1,0 +1,240 @@
+MANUAL DO progamação Dex
+
+Versão: v6
+Autor: gabrielgravacoes9@gmail.com
+
+antes de tudo execute o arquivo: Ninite Python 3 Installer.exe para instalar o python depois prossiga as intruções (obs:para executar abra o arquivo :main.py)
+
+====================================
+
+1. INTRODUÇÃO
+   ====================================
+
+O Mini Compilador Python é um programa que funciona como um pequeno
+terminal de programação. Ele permite:
+
+* Escrever código Python
+* Executar código
+* Salvar arquivos
+* Abrir arquivos
+* Ver arquivos da pasta
+* Mostrar desenhos ASCII
+* Organizar código como um pequeno editor
+
+====================================
+2. COMO INICIAR O PROGRAMA
+==========================
+
+1. Abra o terminal na pasta do projeto
+2. Execute o comando:
+
+python main.py
+
+Depois disso aparecerá:
+
+> > >
+
+Este é o local onde você digita comandos ou código.
+
+====================================
+3. ESCREVENDO CÓDIGO
+====================
+
+Você pode digitar código Python normalmente.
+
+Exemplo:
+
+x = 10
+y = 5
+print(x + y)
+
+O código fica salvo dentro do compilador até você limpar.
+
+====================================
+4. COMANDOS DO SISTEMA
+======================
+
+EXECUTAR
+Executa o código que está salvo no compilador.
+
+Exemplo:
+
+EXECUTAR
+
+---
+
+VER
+Mostra o código atual com números de linha.
+
+Exemplo:
+
+VER
+
+Saída:
+
+001 | x = 10
+002 | y = 5
+003 | print(x + y)
+
+---
+
+LIMPAR
+Apaga todo o código que está salvo.
+
+Exemplo:
+
+LIMPAR
+
+---
+
+SALVAR
+Salva o código em um arquivo Python.
+
+Exemplo:
+
+SALVAR
+
+Depois digite o nome:
+
+Nome do arquivo: programa
+
+Será criado:
+
+programa.py
+
+---
+
+ABRIR
+Carrega um arquivo existente para o editor.
+
+Exemplo:
+
+ABRIR
+
+Digite:
+
+Arquivo para abrir: programa.py
+
+---
+
+DIR
+Mostra arquivos da pasta atual.
+
+Exemplo:
+
+DIR
+
+---
+
+DIR ALL
+Mostra todos os arquivos e pastas.
+
+Exemplo:
+
+DIR ALL
+
+---
+
+SAIR
+Fecha o compilador.
+
+Exemplo:
+
+SAIR
+
+====================================
+5. COMANDO DE DESENHO
+=====================
+
+O compilador possui um sistema de desenhos ASCII.
+
+Comando:
+
+DESENHAR nome
+
+Exemplos disponíveis:
+
+DESENHAR macaco
+DESENHAR escola
+DESENHAR emoji_feliz
+DESENHAR coracao
+DESENHAR navio
+DESENHAR aviao
+
+Esses comandos mostram desenhos no terminal.
+
+Eles NÃO são salvos como código.
+
+====================================
+6. EXEMPLO COMPLETO DE USO
+==========================
+
+Exemplo de sessão:
+
+x = 20
+y = 10
+print(x + y)
+
+VER
+EXECUTAR
+SALVAR
+DESENHAR navio
+DIR
+SAIR
+
+====================================
+7. COMO O COMPILADOR FUNCIONA
+=============================
+
+Fluxo interno:
+
+Usuário digita código
+↓
+Código é salvo em memória
+↓
+EXECUTAR compila o código
+↓
+Python executa o programa
+
+====================================
+8. DICAS IMPORTANTES
+====================
+
+1. Use VER para revisar o código
+2. Use LIMPAR antes de começar outro programa
+3. Salve seus projetos com SALVAR
+4. Use DIR para ver seus arquivos
+5. Use DESENHAR para testar o sistema de arte ASCII
+
+====================================
+9. POSSÍVEIS ERROS
+==================
+
+Erro de sintaxe:
+
+invalid syntax
+
+Isso significa que há algo errado no código Python.
+
+Use:
+
+VER
+
+para encontrar a linha do erro.
+
+====================================
+10. FUTURAS MELHORIAS DO PROJETO
+================================
+
+Possíveis melhorias:
+
+* Sistema de plugins
+* Mais desenhos
+* Editor com cores
+* Rodar arquivos direto
+* Sistema de comandos avançados
+* Interface gráfica
+
+====================================
+FIM DO MANUAL
+=============
